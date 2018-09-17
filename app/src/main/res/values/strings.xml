@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ApiStarWarsMPV</string>
+    <string name="movies">Filmes</string>
+    <string name="characters">Personagens</string>
+    <string name="starships">Naves Estelares</string>
+    <string name="vehicles">Veículos</string>
+    <string name="species">Espécies</string>
+    <string name="planets">Planetas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
