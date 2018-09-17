@@ -25,9 +25,6 @@ public class Presenter implements Contract.Presenter{
         this.model = new Model(this);
     }
 
-    public Presenter(View view) {
-    }
-
     @Override
     public void getDataSwAPi() {
         disposable.add(model.getData()

@@ -24,12 +24,11 @@ public class MoviesFragment extends Fragment implements Contract.View{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_characters, container, false);
-        presenter = new Presenter();
+        presenter = new Presenter(this);
 
         presenter.getDataSwAPi();
 
-
+        return inflater.inflate(R.layout.fragment_characters, container, false);
 
     }
 
